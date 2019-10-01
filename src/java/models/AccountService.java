@@ -11,27 +11,19 @@ package models;
  */
 public class AccountService {
 
-   public static User login(String username,String password)
-   {
-       if( username.equalsIgnoreCase("adam")
-                && password.equalsIgnoreCase("password")){
-            User user = new User(username,password);
+    public static User login(String username, String password) {
+        if (username.equalsIgnoreCase("adam")
+                && password.equalsIgnoreCase("password")) {
+            User user = new User(username, password);
             return user;
         }
-       if( username.equalsIgnoreCase("betty")
-                && password.equalsIgnoreCase("password")){
-            User user = new User(username,password);
+        if (username.equalsIgnoreCase("betty")
+                && password.equalsIgnoreCase("password")) {
+            User user = new User(username, password);
             return user;
+        } else {
+            return null;
         }
-       else 
-       {
-        return null;
-       }
-        
-   }
-}
-     
-      
-   
-    
 
+    }
+}

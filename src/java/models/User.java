@@ -10,8 +10,9 @@ package models;
  * @author 749300
  */
 public class User {
-private String username;
-private String password;
+
+    private String username;
+    private String password;
 
     public User() {
     }
@@ -35,6 +36,5 @@ private String password;
 
     public void setPassword(String password) {
         this.password = password;
-    } 
+    }
 }
-   

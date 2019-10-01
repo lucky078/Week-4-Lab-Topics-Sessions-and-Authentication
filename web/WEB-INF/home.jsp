@@ -11,12 +11,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     <h1>Home Page</h1>
-    </head>
-    <body>
-        <div >
-            hello:  ${mesgH}
-        </div>
-         <a href="login?logout">Logout</a>
-        
-    </body>
+</head>
+<body>
+    <div >
+        hello:  ${mesgH}
+    </div>
+    <a href="login?logout">Logout</a>
+
+</body>
 </html>
